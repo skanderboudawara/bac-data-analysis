@@ -13,17 +13,18 @@ _ _ _
 
 
 ## Context:
-**24 June 2022** is the results day of the most awaited exam, "The Tunisian baccalaureate." The "Bac" is considered one of the most crucial steps to finishing high school and starting the university curriculum. I wanted to focus on the data presented over the last ten years and try to have some conclusion and why not confirm or deny my personal bias. ( this study is for personal fun and not intended for other use) 
+🗓️ 24 June 2022 is the results day of the most awaited exam, "The Tunisian baccalaureate." The "Bac" is considered one of the most crucial steps to finishing high school and starting the university curriculum. I wanted to focus on the data presented over the last ten years and try to have some conclusion and why not confirm or deny my personal bias. ( this study is for personal fun and not intended for other use)
 
-At first, I thought it would be a piece of cake, and as Tunisia proclaims under the project "Digital Tunisia," I would easily find the data, and in one run, I will have my visualizations. However, these are the issues I encountered:
-- The data are not available on the official government website.
-- Some data are available on the Facebook page of the Ministry of Education but not always in the same format. 
-- Some data are available on local newspapers and radio and are painful to find & parse (Yeah, sometimes I listened to an entire archived radio cast to extract one or two values)
+🤔 At first, I thought it would be a piece of cake, and as Tunisia proclaims under the project "Digital Tunisia," I would easily find the data, and in one run, I will have my visualizations. However, these are the issues I encountered:
 
+- The data are not available on the official government website. 🕵️‍♂️
+- Some data are available on the Facebook page of the Ministry of Education but not always in the same format. 🔎
+- Some data are available on local newspapers and radio and are painful to find & parse (Yeah, sometimes I listened to an entire archived radio cast to extract one or two values)📻
 
-I decided then to manually fill the data needed for my analysis through Google Sheets ( Spreadsheet link ) and try my best to avoid any mistype (even though the risk is still high).
+💻 I decided then to manually fill the data needed for my analysis through Google Sheets ( Spreadsheet link ) and try my best to avoid any mistype (even though the risk is still high).📝
 
 <u><b>The scope of my analysis:</b></u>
+
 - Period: from 2010 - 2022
 - High School: Public & Private
 - Number of registered pupils for the exam (Public & Private)
@@ -31,7 +32,7 @@ I decided then to manually fill the data needed for my analysis through Google S
 - Region ranking by success rate
 - High Marks, gender partition & their high school of origin
 
-It took me about 4 hours to find and parse the data needed. So yeah, let's finally start our analysis.
+🕰️ It took me about 4 hours to find and parse the data needed. So yeah, let's finally start our analysis.📊
 
 _ _ _ 
 
@@ -40,55 +41,58 @@ _ _ _
 
 <img alt="Total number of pupils registered for the baccalaureate examination per year" src="src/Total number of pupils registered for the baccalaureate examination per year.svg">
 
-We do not have a significant variation in the number of the total registered pupils throughout the year. In fact, between the min & max is a leap of 20k pupils, which is not significant.
+An analysis of the total number of registered pupils throughout the year revealed minimal fluctuations. The minimum number of registered pupils was observed to be 126776 pupils while the maximum number of registered pupils was observed to be  146158 pupils. This resulted in a difference of only 20,000 pupils (or 13.26%) between the minimum and maximum, which can be considered as statistically insignificant but has a cost on educational budget.
 
 ## 2- Distribution of pupils registered per field 
 
 <img alt="Distribution of pupil registered per field" src="src/Distribution of pupil registered per field.svg">
 
-From this graph, we can see that:
+The graph depicts the enrollment trends in various fields of study among Tunisian students. 
 
-- On the one hand, there is a craze for the technical field and the economics and management field
-- On the other hand, a lack of interest in the mathematics and computer science field (which is odd in the digital and computer science area)
-To be honest with you, since I was a student in the mathematical field (BAC 2011), I am a bit astonished. I always thought that Math was the first target of Tunisian students for the opportunities it may offer. It seems that is not a general trend and pupils are more and more choosing between Economics & management or Technical field. I don't know the real reason behind this trend.
-- Is it a strategic decision made by the government?
-- Are these two fields easier than the other?
-- Do these fields offer more Job opportunities in the local market?
-Now let's go back and analyze the success rate.
+It is observed that there is a high demand for the technical field and the economics and management field, while there is a lack of interest in the mathematics and computer science field, which is surprising given the growing importance of the digital and computer science industry. 
+
+The reason for this trend is not immediately clear and could be further investigated.
+Some possible factors to consider include:
+- Government policies
+- Perceived difficulty of the field
+- Job opportunities in the local market. 
+- etc
+
+Additionally, it is important to analyze the success rate in these fields to gain a more comprehensive understanding of the enrollment trends.
 
 ## 3- Sucess, adjournment & refusal rate distribution
 
 <img alt="The success, adjournment, and refusal rate distribution over the total registrations" src="src/The success, adjournment, and refusal rate distribution over the total registrations.svg">
 
-At first glance, the refusal rate seems to increase through the year; meanwhile, the success rate is decreasing, and the adjournment rate is stable. We will check later on the evolution of each rate.
+A preliminary examination of the data indicates that the rate of refusals appears to be on the rise over the year, while the success rate is decreasing and the adjournment rate remains stable. Further analysis will be conducted to determine the evolution of each rate over time.
 
-Let's look closely at the performance (variation) of the success rate over the years.
+Upon closer examination, the variation of the success rate over the years will be evaluated to gain a deeper understanding of the performance in this area.
 
 <img alt="Variation of the success rate compared to the previous year" src="src/Variation of the success rate compared to the previous year.svg">
 
+- The years 2012 and 2015 had the lowest success rate performance, with a drop of 26%.
+- 2021 had the highest success rate performance, despite being heavily impacted by the Covid-19 pandemic.
 
-- 2012 & 2015 are the worst year in success rate performance when they dropped by 26%
-- 2021 is the best year in success rate performance (knowing that this year was highly impacted by Covid 19)
-
-Now let's analyze the trend & performance of each year between 2010 - 2022
+To gain a comprehensive understanding of the trend and performance of the success rate, a detailed analysis of the data from 2010 to 2022 will be conducted.
 
 <img alt="Adjournment rate trend" src="src/Adjournment rate trend.svg">  <img alt="Refusal rate trend" src="src/Refusal rate trend.svg">  <img alt="Success rate trend" src="src/Success rate trend.svg">
 
-As far as I'm concerned, I find these three graphs really alarming!
-The success and adjournment rate (all fields included) is decreasing, and on the contrary, the refusal rate is increasing significantly with a strong positive slope.
-- Is it due to a deterioration in our educational system?
-- Is our educational system no more suitable for the current generation?
-- Are the recurrent "catastrophic events" that led to separate cut-period such as student strikes, gouv strikes, teacher strikes, "Covid 19", "Jasmin Revolution", etc ... responsible for this downgrade?
+The data presented in these three graphs is concerning:
+- Why is there a significant decrease in the success and adjournment rate and a steady increase in the refusal rate?
+- Is the educational system in decline?
+- Is the current educational system no longer suitable for the current generation of students?
+- To what extent are recurring events such as student strikes, government strikes, teacher strikes, Covid-19, and the Jasmine Revolution contributing to this trend?
+- What actions can be taken to address this issue and improve the success and adjournment rate while decreasing the refusal rate?
 
-On top, what are the strategic and the real actions that are taken to overcome this issue?
+It is crucial to investigate the underlying causes of this trend and implement strategic and effective measures to address the issue.
 
 <img alt="Evolution of success rate between 2010 & 2020 distributed by fields" src="src/Evolution of success rate between 2010 & 2020 distributed by fields.svg">
 
 ## 4- Average success rate by gender
 
-No surprise here, the average success rate is crowned by the female gender with a crushing percentage of 63.5% over 36.5% for males.
+The data shows that the average success rate for females is significantly higher than for males, with females achieving an average success rate of 63.5% compared to 36.5% for males. This is consistent with other studies in the field.
 
-I invite you to have a look at the analysis made by InkyFada about this topic.
+It's worth mentioning that this topic has been widely discussed by experts and researchers and to have a deeper understanding, it's recommended to refer to the analysis made by InkyFada on this subject.
 
 Link to the [article](https://inkyfada.com/fr/2021/09/10/inegalites-hommes-femmes-ecole-travail-tunisie/)
 
@@ -98,18 +102,17 @@ _ _ _
 
 # II- Laureate & High marks analysis
 
-It's always a pleasure to read and learn more about the laureate of each field and the high mark they got during this challenging exam. Back in the day, I always aimed to dethrone my predecessor and get a new achievement. But unfortunately, even though I got a good grade (17,80), It was not sufficient to be on the podium in 2011.
+As a student, I always found it fascinating to learn about the top performers and highest marks achieved during the exams. I remember aspiring to surpass my predecessors and set new records. However, despite my own good grade (17.8) in 2011, I wasn't able to secure a place on the podium.
 
-Let's see the evolution of high marks over the years and what is the field that has achieved it.
+This analysis will take a personal approach, focusing on the evolution of high marks over the years and in which field I have consistently seen top performers.
 
 ## 1 - Evolution of high marks over the years
 
 <img alt="Highest baccalaureate mark per year" src="src/Highest baccalaureate mark per year.svg">
 
-As we can see, the highest mark is always coming from the Mathematical or Experimental science field, which is quite understandable. Those fields are based on true/false types of exams. Either you are correct, or either you are wrong. Meanwhile, the other areas need some work and subjective marking.
-We can see also that the trend of High marks has a positive slope but who will beat the best among the bests 20,15/20? The bug in the system? the Neo of the Matrix.?
+As observed in the data, the highest marks are consistently achieved in the Mathematical or Experimental Science fields. This is expected as these fields are primarily based on true/false type of exams, where there is a clear right or wrong answer. Meanwhile, other fields may require more subjective grading. Additionally, the trend of high marks has a positive slope but it's worth investigating if this trend will continue.
 
-We will consider one laureate of each field:
+To gain a deeper understanding of the top performers, a thorough analysis will be conducted on one laureate from each field, including:
 - Literature
 - Mathematics Sc
 - Experimental Sc
@@ -118,19 +121,19 @@ We will consider one laureate of each field:
 - Computer Sc
 - Technical Sc
 
-and we will deep dive into their school of origins, their gender, and so on.
+This analysis will focus on the laureate's school of origin, gender and other relevant factors that might have contributed to their success.
 
 ## 2- Gender distribution between laureate
 
 <img alt="Distribution of laureat by gender" src="src/Distribution of laureat by gender.svg">
 
-Unlike the average total gender distribution, the gender distribution in the laureate is competitive and somehow equal between males & females. (except for 2010, a major win for females)
+Unlike the overall gender distribution, the distribution among laureates is relatively balanced between males and females, with occasional fluctuations. For example, in 2010, there was a higher proportion of female laureates.
 
 ## 3- High school of origin of the laureate (Pilote vs Other schools)
 
 <img alt="Distribution of the laureate on the high schools" src="src/Distribution of the laureate on the high schools.svg">
 
-Astonishingly the repartition of laureates between public high schools and "pilot" high schools is equal. The pilot high school is slightly better, but not with a significant leap. For instance, pilot high schools were established to offer the toughest and the best education in the region for the laureate of each region.
+Interestingly, the distribution of laureates between public high schools and "pilot" high schools is relatively equal. While pilot high schools are known for offering a more challenging and advanced education, the data does not show a significant difference in the number of laureates produced by these schools compared to public high schools.
 
 ## 4- The high school with the most laureate number
 
@@ -138,15 +141,15 @@ Astonishingly the repartition of laureates between public high schools and "pilo
 
 <img alt="Total of laureate distributed per High School" src="src/Total of laureate distributed per High School.svg">
 
-But as we can see, High School Pilote Sousse is the school that has created more laureates in the country over the last decade. The top field for this school is Technique, with eight laureates between 2010 - 2022. Finally, let's have a look at their region of origin
+However, it is worth noting that High School Pilote Sousse has produced the most number of laureates in the country over the last decade. The school's top field for producing laureates is Technique, with eight laureates between 2010-2022. Furthermore, it would be interesting to know the region of origin of the students who graduated from this school.
 
 ## 5- Region of the High school of the laureate
 
 <img alt="Distribution of laureate by region, cumulative view" src="src/Distribution of laureate by region, cumulative view.svg">
 
-I expected Sfax or Sousse to be at the head of this Pareto, but surprisingly it's Tunis (downtown) with 23 laureates that win the podium, followed by Sousse then Sfax.
+I had initially anticipated that Sfax or Sousse would have the most laureates, but the data shows that Tunis (downtown) has produced the most number of laureates with 23, followed by Sousse and Sfax.
 
-Speaking of the region, let's look at the success rate distributed by region.
+To gain a more complete understanding of the success rate, the analysis will now focus on the distribution of success rate by region.
 
 _ _ _
 
@@ -295,25 +298,25 @@ To create these charts, I used the library high-charts combined with Google scri
 <img alt="tunisia heat map" src="src/tunisia heat map.jpg">
 <br>
 
-As we can see here, the coastal areas have a better success rate than the inner region. This trend didn't change over the last decade, a critical issue due to the inner region's lack of investment (cultural & economical). You can check Inkfyada as well for better documentation.
+As observed in the data, the coastal regions have a higher success rate than the inner regions. This trend has remained consistent over the last decade. This could be attributed to the lack of investment in the inner regions, both in terms of culture and economy. It's recommended to refer to InkyFada for more detailed documentation on this subject.
 
 _ _ _
 
 # Conclusions
-- This study has helped a better concrete view of the actual situation for the baccalaureate data.
-- It has corrected some biases, especially for the mathematical fields and the pilote school trend.
-- This study has some alarming indicators, such as the increase in refusal rate & the success rate distribution per region.
-- I tried to use simple visualization, which, to be honest, was quite challenging trying to find the balance between "remove the clutter" and "over-simplification."
-- Unfortunately, much data for Tunisia is inaccessible or unavailable, or their recreation is challenging! I hope one day our data become publically available so we can do our investigation.
+- The study provided a comprehensive understanding of the current state of baccalaureate data in Tunisia
+- It addressed and corrected some biases, particularly in regards to mathematical fields and the trend among pilot schools
+- The study revealed some concerning trends, such as the increase in the refusal rate and the uneven distribution of success rate by region.
+- The study utilized simple visualizations to present the data, which was challenging to balance between clarity and complexity.
+- The lack of easily accessible and comprehensive data for Tunisia is a limitation in conducting this type of research and it is hoped that in future such data will be made publicly available for investigation.
   
 
 <u><b>Critics:</b></u>
-- These data must be crossed with other data to be able to make more concrete and objective decisions.
-- The data that are in the Google spreadsheet are manual data without a double-check from an external, so some minor errors can be made
+- The data presented in this study should be cross-referenced with other relevant data in order to make more informed and accurate decisions.
+- The data found in the Google spreadsheet used in this study are manually inputted and have not undergone a thorough verification process by an external party, which may result in small inaccuracies. It's recommended that further validation should be done using other reliable sources.
 
 _ _ _
 
-Do not hesitate to contact me through my LinkedIn Profile
+Please feel free to reach out to me through my LinkedIn Profile if you have any further questions or would like to discuss this study in more detail.
 <p>
 <a href="https://www.linkedin.com/in/skanderboudawara/">
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
